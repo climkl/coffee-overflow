@@ -1,7 +1,7 @@
 ---
 author: Christine Lim
 title: On Writing
-date: 2026-07-20
+date: 2026-07-24
 categories: ["general"]
 tags: ["general"]
 draft: true
