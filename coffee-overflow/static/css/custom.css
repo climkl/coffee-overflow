@@ -1,4 +1,13 @@
+@font-face {
+  font-family: "CoffeeGeorgia";
+  src: url("/assets/georgia.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
 #wrapper {
+  font-family: "CoffeeGeorgia", "Georgia", "Times New Roman", serif;
   padding-left: max(1.5rem, calc((100vw - 760px) / 2)) !important;
   padding-right: max(1.5rem, calc((100vw - 760px) / 2)) !important;
 }
