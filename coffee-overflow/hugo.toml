@@ -18,6 +18,13 @@ categories = "categories"
 [markup.goldmark.renderer]
 unsafe = true
 
+[markup.goldmark.extensions.passthrough]
+enable = true
+[markup.goldmark.extensions.passthrough.delimiters]
+block = [['\[', '\]'], ['$$', '$$']]
+inline = [['\(', '\)'], ['$', '$']]
+
+
 [params]
 title="Coffee Overflow"
 author = "Christine Lim"
