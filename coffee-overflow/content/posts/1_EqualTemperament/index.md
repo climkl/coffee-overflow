@@ -1,7 +1,7 @@
 ---
 author: Christine Lim
 title: What is a 'C'?
-date: 2026-07-27
+date: 2026-08-04
 categories: ["music"]
 tags: ["music"]
 draft: true
@@ -9,9 +9,9 @@ draft: true
 
 # What is a 'C'? 
 
-When teaching my friend to play piano, he asked me what even is a C note? What's a chord and what's a scale or a key? To me, these had been so ingrained into me that I don't quite think about it actively anymore, and the answer was a bit too longwinded for a piano playing session.
+When teaching my friend to play piano, he asked me what even is a C note? (What's a chord and what's a scale or a key?) To me, these had been so ingrained into me that I don't quite think about it actively anymore, and the answer was a bit too longwinded for a piano playing session.
 
-Notes are effectively a **label** for specific frequencies. We also call them 'pitches'. But what makes it complicated is how humans have decided what frequencies gets labelled and strung together, which has to do with what sounds nice, but also some other practicalities.
+Notes are effectively a **label** for specific frequencies. We also call them **pitches**. But what makes it complicated/interesting is how humans have decided what frequencies gets labelled and strung together, which has to do with what sounds nice, but also some other practicalities.
 
 ## Octave
 

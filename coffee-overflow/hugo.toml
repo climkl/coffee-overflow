@@ -1,4 +1,5 @@
 baseURL = "https://climkl.github.io/coffee-overflow/"
+timeZone = "Asia/Singapore"
 disqusShortname = ""
 enableGitInfo = true
 enableRobotsTXT = true

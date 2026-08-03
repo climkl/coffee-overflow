@@ -13,7 +13,7 @@ When people ask questions like "What do you think about ___?" or "How does ___ w
 
 In the same way that trying to explain something to someone makes you learn more about it yourself (or realise how much you don't know about it), I think writing is similar, just slowed down and editable. 
 
-Writing is all around us — in our text messages, emails, forums, articles, the Bible, etc. even if we don't formally consider ourselves to be 'writers'. Hence, I want to be able to choose the right words to convey my thoughts and emotions with more clarity.
+Writing is all around us — in our text messages, emails, forums, articles, the Bible, etc. even if we don't formally consider ourselves to be 'writers'. The words we choose, the tone we use, they all matter.
 
 I do have some apprehensions:  
 
