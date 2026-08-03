@@ -25,7 +25,7 @@ A4 is 440Hz, and interestingly, A5 is 880Hz, exactly double. A5 is an octave abo
 
 If we look at the waveform, it syncs up in a nice 2:1 ratio. Meaning for every period of A4, there are 2 periods of A5. So, we see some kind of relationship between how often the periods sync up, and how our ears perceive them as being harmonious (or 'consonant' we might say). 
 
-The simpler the ratio, the more pleasing to the ear it is. The smaller the ratio numbers are, the simpler the relationship. (e.g. 3:2 vs 89:39 or something)
+The simpler the ratio, the more pleasing to the ear it tends to be. The smaller the ratio numbers are, the simpler the relationship. (e.g. 3:2 vs 89:39 or something)
 
 ![440](1_440880.png)  
 
@@ -42,8 +42,8 @@ Just to solidify the octave relationship, here are all the 'A's on the piano:
 | A7   | 3520.00 Hz |       128:1 |
 
 
-## Perfect Intervals
-Extending this logic, we can find the next intervals that sound best based on how simple the ratios are.
+## More Intervals
+Extending this logic, we can find other pleasant sounding intervals with simple ratios.
 
 Since an octave is 2:1, all our ratios in between will have to be <2 to fit within our octave. 
 
@@ -77,8 +77,9 @@ All our notes from A4 to A5 looks like this:
 |     12 | G♯ / A♭ | 1.887749 (2¹¹⁄¹²) | 830.609 Hz |
 |     13 | A       | 2.000000 (2¹²⁄¹²) | 880.000 Hz |
 
-> **Side Track for the Math**  
->You might notice.. that's not equal? Well, if you look back at the octave table, where   
+> **Side Track**  
+>You might notice, that what is equal is the ratios, not the exact frequencies.   
+From our octave table:    
 >A0 = 27.50,   
 >A1 = 55.00,   
 >A2 = 110.00  <br><br>
@@ -87,7 +88,7 @@ All our notes from A4 to A5 looks like this:
 >A1 - A0 = 27.5Hz <br><br>
 >They are in fact, half/double of each other.
 >
->Turns out frequencies and our ears do not work linearly. Instead, our ears follow a logarithmic curve.  <br><br>
+>Turns out our ears perceive pitch on a logarithmic scale, rather than linear.  <br><br>
 ><img src="1_log.png" alt="log" style="max-width: 50%; height: auto;">  
 
 
@@ -118,13 +119,13 @@ One of the early scales was built around the concept of the 3:2 ratio sounding g
 
 So, if we were to start on A4 again. 
 
-Add 3/2 ratio to the root.  
+To stack a fifth, we add a 3:2 ratio to the root.  
 <!--![alt text](Pyth-E.png)-->
 <img src="Pyth-E.png" alt="log" style="max-width: 60%; height: auto;"> 
 
 The next note would be a ratio of $\left(\frac{3}{2}\right)$ * $\left(\frac{3}{2}\right)$ from the root. That would be $\frac{9}{4}$ ratio.   
 
-However, knowing that our scale is bounded by the octave 2:1 ratio, and $\frac{9}{4}$ is more than 2, it was decided we should wrap it down an octave to fit within the bounds (and the math still does work out). Down an octave is half the frequency, so $\frac{9}{4}$ ratio will become $\frac{9}{8}$.   
+However, knowing that our scale is bounded by the octave 2:1 ratio, and $\frac{9}{4}$ is more than 2, we wrap the note back down an octave. This works since the notes are perceived as equivalent. Down an octave is half the frequency, so $\frac{9}{4}$ ratio will become $\frac{9}{8}$.   
 
 In pure numbers, $\frac{3}{2}$ * 660 = 990. Divide by half to wrap down, we get 495, which is indeed $\frac{9}{8}$ of 440.  
 <!--![alt text](Pyth-B.png)-->
@@ -154,7 +155,7 @@ Once we are done with our scale that fits within an octave, we can simply double
 |     14 | G♯6  |  243:64 | 1670.625 Hz |
 |     15 | A6   |     4:1 | 1760.000 Hz |
 
-### Problem: The circle of fifths that doesn't close
+### The Problem: The circle of fifths that doesn't close
 We have two paths now to compare / rules to follow  
 1: Octaves are 2:1 ratios  
 2: Stacking 3:2 ratios  
@@ -167,11 +168,11 @@ However, the two paths actually lead to a different math for this C.
 Based on path 1: 2⁷ ratio of root = 128   
 Based on path 2: $\left(\frac{3}{2}\right)^{12}$ of root = 129.74. 
 
-This gap is referred to as the **Pythagoras Comma**.
+This ratio gap is referred to as the **Pythagoras Comma**.
 
-Logically speaking, this is an impossibility — one note cannot have 2 possible frequencies. 
+Logically speaking, this is an impossibility if we are trying to construct a piano with fixed keys — one note cannot have 2 possible frequencies. 
 
-The 'resolution' to this, is to still respect the octave ratios, squeezing back 129.74 to 128. And so the 12th fifth we have will be of this ratio, also called the **'Wolf Fifth'**:
+The 'resolution' to this, is to still respect the octave ratios, squeezing the very last fifth to end on 128 instead of 129.74. And so the 12th fifth we have will be of this ratio, also called the **'Wolf Fifth'**:
 
 $$
 \frac{128}{\left(\frac{3}{2}\right)^{11}} = \frac{262144}{177147}
@@ -204,6 +205,8 @@ Pythagoras tuning is considered 3-limit as it uses 1, 2, 3 in its ratios.
 
 5-limit is the most common just intonation, which attempts to tune it for the 3rds to sound pleasant. (Since, if you noticed, thirds in Pythagoras tuning was not in a perfect 5:4 ratio (1.25), but 1.265625.)
 
+However, unlike Pythagoras Tuning, 5-limit just intonation isn't generated by stacking intervals. What it does is to preserve the important intervals to have its simple ratios.
+
 | Degree | Note | Ratio | Frequency |
 | -----: | ---- | ----: | --------: |
 |      1 | A    |   1:1 |  440.0 Hz |
@@ -225,12 +228,11 @@ Note that this is the Western tuning system, and there are still other tuning sy
 This also means, interestingly, that in a string ensemble or wind band, we have control to tweak our intervals slightly, to sound more harmonious. But the minute we throw a piano, or harp into the mix, that flexibility is lost. 
 
 ## Magic Number 12? 
-We kind of hinted at some practical reasons for the number of notes in a scale:
+We kind of hinted at these reasons, but mainly:
 - A manageable number for our human brains
-- Achieve intervals that are as close to the perfect ratios — intervals that matter most.
-- Historical continuity
+- Stacking 5ths gave us 12 notes before returning back to our original note, so there is some historical continuity from there.
 
-And as mentioned, 12-tone western system isn't the only tuning system out there, but it is a pretty good compromise.
+As mentioned, the 12-tone western system isn't the only tuning system out there, but it is a pretty good compromise.
 
 ## The End
 Hope the math didn't hurt too much.
