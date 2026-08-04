@@ -4,7 +4,7 @@ title: What is a 'C'?
 date: 2026-08-04
 categories: ["music"]
 tags: ["music"]
-draft: true
+draft: false
 ---
 
 # What is a 'C'? 

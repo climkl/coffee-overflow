@@ -4,7 +4,7 @@ title: On Writing
 date: 2026-07-24
 categories: ["general"]
 tags: ["general"]
-draft: true
+draft: false
 ---
 
 # On Writing — The Start
