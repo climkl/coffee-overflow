@@ -19,15 +19,16 @@ To start, the middle C (C4) on a modern day piano labels a frequency of 261.626H
 
 Even though people always start with C for the piano since it's all white keys, the alphabet does start with A... and using A will make the numbers easier to follow.
 
-![A4A5](1_A4A5.png)  
+![A4A5](1_A4A5.png)
 
 A4 is 440Hz, and interestingly, A5 is 880Hz, exactly double. A5 is an octave above A4 (an octave above just means its still A but it sounds noticeably "higher" to our ears). 
+
+<!-- ![440](1_440880.png) --> 
+<img src="1_440880.png" alt="440880" style="max-width: 50%; height: auto;">  
 
 If we look at the waveform, it syncs up in a nice 2:1 ratio. Meaning for every period of A4, there are 2 periods of A5. So, we see some kind of relationship between how often the periods sync up, and how our ears perceive them as being harmonious (or 'consonant' we might say). 
 
 The simpler the ratio, the more pleasing to the ear it tends to be. The smaller the ratio numbers are, the simpler the relationship. (e.g. 3:2 vs 89:39 or something)
-
-![440](1_440880.png)  
 
 Just to solidify the octave relationship, here are all the 'A's on the piano:
 | Note |  Frequency | Ratio  |
@@ -119,7 +120,7 @@ One of the early scales was built around the concept of the 3:2 ratio sounding g
 
 So, if we were to start on A4 again. 
 
-To stack a fifth, we add a 3:2 ratio to the root.  
+To stack a fifth, we add a 3:2 ratio to the root, giving us 660Hz.  
 <!--![alt text](Pyth-E.png)-->
 <img src="Pyth-E.png" alt="log" style="max-width: 60%; height: auto;"> 
 
@@ -194,7 +195,10 @@ The wolf interval is now D–A.
 
 (This is slightly unfamiliar territory as we are used to thinking of notes as being fixed, but there is no real fixed notes in Pythagoras, the root is movable.)
 
-The consequence of this meant that musicians had to be careful to avoid these bad sounding intervals. And it also meant there was a limit to how much they could modulate without hitting these wolf intervals.
+The consequence of this is that musicians had to be careful to avoid these bad sounding intervals. It also meant there was a limit to how much they could modulate* without hitting these wolf fifths. 
+
+> ***Modulation**  
+> This means to change keys. When we say a piece has a 'key', e.g. key of C, we mean it is centered around C, and has a desire to return to this root note. If you modulate a note up, your music would start to center around D. 
 
 ## Just Intonation
 Pythagoras tuning isn't the only tuning that tried to achieve perfect harmonious ratios. A whole family of tunings called 'Just Intonation' experimented with the different ratios. 
@@ -216,7 +220,7 @@ Pythagoras tuning is considered 3-limit as it uses 1, 2, 3 in its ratios.
 |      7 | G♯   |  15:8 |  825.0 Hz |
 |      8 | A    |   2:1 |  880.0 Hz |
 
-However, this also suffers from similar problems to Pythagoras tuning. 
+However, this also suffers from similar problems to Pythagoras tuning – inconsistent definitions of a single note depending on key, and difficulty modulating keys.
 
 ## The Compromise
 Therefore, the current tuning system we are familiar with these days, is really a compromise — it isn't perfect, but we can modulate keys freely, and label each note consistently. We don't have to retune our instruments depending on what key we want, or find that my 'C' is not your 'C'.
