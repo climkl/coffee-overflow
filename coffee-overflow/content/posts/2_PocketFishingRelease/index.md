@@ -1,13 +1,13 @@
 ---
 author: Christine Lim
-title: Released a game
+title: "Released: Pocket Fishing"
 date: 2026-08-04
 categories: ["devlog"]
 tags: ["devlog", "gamedev"]
 draft: false
 ---
 
-# Released: Pocket Fish
+# Released: Pocket Fishing
 
 I released a game on the playstore! Granted, it's really tiny, and some have commented that it is barely a game. And I can see where they are coming from, especially if you aren't familiar with this genre. 
 
